@@ -18,6 +18,8 @@ app.use(session({
     cookie: { secure: false }
   }))
 
+app.set('views', views + '/views');
+
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res)=>{
