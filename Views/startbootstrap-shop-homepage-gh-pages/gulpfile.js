@@ -1,10 +1,10 @@
 "use strict";
 
 // Load plugins
-const browsersync = require("browser-sync").create();
-const del = require("del");
-const gulp = require("gulp");
-const merge = require("merge-stream");
+const browsersync = require("./node_modules/browser-sync").create();
+const del = require("./node_modules/del");
+const gulp = require("./node_modules/gulp");
+const merge = require("./node_modules/merge-stream");
 
 // BrowserSync
 function browserSync(done) {
