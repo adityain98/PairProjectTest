@@ -36,7 +36,7 @@ app.get('/', (req, res)=>{
             
             // res.send(categories)
             // res.send(booksData)
-            res.render('startbootstrap-shop-homepage-gh-pages', {books: booksData, categories, login: req.session.user})
+            res.render('startbootstrap-shop-homepage-gh-pages/index', {books: booksData, categories, login: req.session.user})
         })
 })
 
