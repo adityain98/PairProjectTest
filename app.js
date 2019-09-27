@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 
 const Book = require('./models').Book
 const Category = require('./models').Category
@@ -62,5 +62,5 @@ app.use('/user', userRoutes)
 app.use('/book', bookRoutes)
 
 app.listen(port, ()=>{
-    console.log('listening on port 3000');
+    console.log('listening on port 4000');
 })
