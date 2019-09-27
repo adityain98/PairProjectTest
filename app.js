@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 3000
 
 const Book = require('./models').Book
 const Category = require('./models').Category
@@ -36,7 +36,7 @@ app.get('/', (req, res)=>{
             
             // res.send(categories)
             // res.send(booksData)
-            res.render('startbootstrap-shop-homepage-gh-pages/index', {books: booksData, categories, login: req.session.user})
+            res.render('index', {books: booksData, categories, login: req.session.user})
         })
 })
 
@@ -53,7 +53,7 @@ app.get('/:categoryId', (req,res)=>{
             return Category.findAll()
         })
         .then(categories=>{
-            res.render('startbootstrap-shop-homepage-gh-pages', {books: category.Books, categories, login: req.session.user})
+            res.render('index', {books: category.Books, categories, login: req.session.user})
         })
 })
 
