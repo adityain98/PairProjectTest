@@ -1,0 +1,22 @@
+MVP: 
+    search atau email verification
+
+Langkah awal:
+    1. buat seed                                    | V
+    2. masukkan data kedalam database               | V
+
+Webpage:
+    1. masukkan homepage ke ejs                     | V
+    2. membuat login page                           |
+    3. membuat register page                        | 
+    4. checkout page                                |
+    5. membuat list cart                            |
+
+Sequelize:
+    1. buat relasi antar tabel                      | V
+    2. bisa menambahkan user pada Sequelize         | V sudah dengan validate
+    3. login pada web & logout                      | setelah lecture 
+    4. fitur add book to cart                       | V
+    5. fitur checkout                               | V
+    6. fitur view by category                       | V
+    7. fitur view cart                              | V

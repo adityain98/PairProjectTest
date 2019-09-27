@@ -1,0 +1,18 @@
+Name                                Categoty
+1. The Outsider                     Horror, Thriller, Fiction
+2. Here There Are Monsters          Horror, Mystery, Young Adult
+3. House of Salt and Sorrows        Fantasy, Young Adult
+4. The Dragon Republic              Fantasy, Fiction, Adult
+5. A Better Man                     Mystery, Fiction, Thriller
+6. The Swallows                     Fiction, Mystery, Thriller
+7. The Turn of the Key              Fiction, Mystery, Thriller 
+
+
+
+1. 'Horror'
+2. 'Thriller'
+3. 'Fiction'
+4. 'Mystery'
+5. 'Young Adult'
+6. 'Adult'
+7. 'Fantasy'
